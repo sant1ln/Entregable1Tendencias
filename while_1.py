@@ -5,6 +5,6 @@ number = int(input("Ingrese un número: "))
 sumator = 0
 while(number != 0):
     sumator = sumator + number 
-    number = int(input("Ingrese otro número: "))
-    
-print(f'La sumatoria es: {sumator}')
+    number = int(input("Ingrese otro número:  "))
+if sumator != 0:
+   print(f'La sumatoria es: {sumator}')

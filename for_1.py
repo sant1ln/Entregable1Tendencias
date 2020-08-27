@@ -1,4 +1,4 @@
-"""  Requerir al usuario que ingrese un número entero positivo
+"""Requerir al usuario que ingrese un número entero positivo
 e imprimir todos los números correlativos entre el ingresado 
 por el usuario y uno menos del doble del
 mismo. """
@@ -10,5 +10,7 @@ iterator = (user_input * 2)-1
 if user_input > 0:
     for i in range(1,iterator+1):
         print(i)
+elif user_input == 0:
+    print('Error, ingreso un cero')
 else:
-    print('Error, Ingreso un numero impar')
+    print('Error, Ingreso un numero negativo')

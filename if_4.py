@@ -9,7 +9,7 @@ user_vote = str.upper(input("""Escoja:
 A. Partido rojo\n
 B. Partido verde\n
 C  Partido azul\n
->"""))
+> """))
 
 def print_election(election):
     print(f'Usted a votado por el partido {election}')

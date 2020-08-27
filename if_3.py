@@ -13,4 +13,4 @@ elif(input_day == 'SABADO'):
 elif(input_day == 'DOMINGO'):
     print('¿Mañana es festivo?')
 else:
-    print(f'{input_day.capitalize()}, un día sin igual, y siempre igual')
+    print(f'{input_day.capitalize()}, un día sin igual, y siempre igual...')
